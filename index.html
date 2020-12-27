@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Covid19 Update</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+           <div class="logo">
+               <img src="coviddd/coronavirus.png" alt="" >
+           </div>
+           <div class="list">
+               <ul>
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">GLOBAL UPDATE</a></li>
+                   <li><a href="#">UPDATE</a></li>
+               </ul>
+           </div>
+           <nav class="nav">
+               <div class="hamburger" id="open">
+                   <div class="line"></div>
+                   <div class="line"></div>
+                   <div class="line"></div>
+               </div>
+           </nav>
+         
+          
+        </header>
+        <div class="text">
+            <h2>WELCOME TO COVID 19 UPDATE</h2><br><br>
+            
+        </div>
+         <img src="coviddd/close.png" alt="" id="close"> 
+        <!-- <div class="hamburger" id="close">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div> -->
+    
+        <div class="invisible">
+          
+            <div class="listtt">
+                <!-- <img src="coviddd/close.png" alt="" id="close"> -->
+              
+               
+                <ul>
+                   <li><a href="#global">Global Update</a></li>
+                   <li><a href="#country">Country INFO</a></li>
+                   <li><a href="#continent">Continents INFO</a></li>
+                </ul>
+            </div>  
+        </div>
+     
+    </main>
+
+ <section class="global">
+     <div class="banner">
+    
+    
+         
+    <div class=" globalresult" id="global">
+        <h1>GLOBAL UPDATE</h1>
+       <h2 id="total_case">Total Confirmed:</h2>
+       <img src="coviddd/spinner.gif" alt="" class="gif" id="gif1" width="90px">
+       <p class="total_case" id="counter"></p>
+       <h2 id="total_recovered">Total Discharged:</h2>
+       <img src="coviddd/spinner.gif" alt="" class="gif" id="gif2"  width="90px">
+       <p class="total_recovered" id="counter2"></p>
+       <h2 id="total_deceased">Total Deaths:</h2>
+       <img src="coviddd/spinner.gif" alt="" class="gif"  id="gif3" width="90px">
+       <p class="total_deceased" id="counter3"></p>
+    </div>
+         
+ </section>
+
+<div class="country" id="country">
+    <div class="countryff">
+        <div class="part1">
+            <h1>GET YOUR COUNTRIES COVID 19 INFO</h1>
+            <form id="form">
+        
+             <input type="text" placeholder="Country" id="input" >
+          
+            <button type="submit" id="button">Submit</button>
+           </form>
+        </div>
+       
+     
+     <div class="outputtt">
+        <img src="coviddd/spinner.gif" alt="" class="last">
+     </div>
+    
+   
+    
+    </div>
+      
+  
+</div>
+
+    
+
+<div class="continent" id="continent">
+    <h4 class="conten">Continents</h4>
+   <div class="container">
+       
+    <div class="first">
+        <div class="card africa" id="card" data-aos="fade-up">
+            <h1>Africa</h1>
+            <h2>Total Cases:</h2> 
+            <P class="ttaf" id="ptag"></P>
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif10"  width="90px">
+           
+            <h2>Total Discharged:</h2> 
+            <P class="traf" id="ptag"></P>
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif11"  width="90px">
+           
+            <h2>Total Deaths:</h2> 
+            <P class="tdaf" id="ptag"></P>
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif12" width="90px">
+           
+         </div>
+         <div class="card europe"  id="card"   data-aos="fade-down">
+             <h1>Europe</h1>
+             <h2>Total Cases:</h2> 
+             <img src="coviddd/spinner.gif" alt="" id="ree" class="gif13"  width="90px">
+             <P class="tceu" id="ptag"></P>
+             <h2>Total Discharged:</h2> 
+             <img src="coviddd/spinner.gif" alt="" id="ree" class="gif14"  width="90px">
+             <P class="treu"  id="ptag"></P>
+             <h2>Total Deaths:</h2> 
+             <img src="coviddd/spinner.gif" alt="" id="ree" class="gif15"  width="90px">
+             <P class="tdeu"  id="ptag"></P>
+          </div>
+          <div class="southamerica" id="card"  data-aos="fade-left">
+              <h1 class="america2">S.America</h1>
+             <h2>Total Cases:</h2> 
+             <img src="coviddd/spinner.gif" alt="" id="ree" class="gif16"  width="90px">
+             <P class="tcsa"  id="ptag"></P>
+             <h2>Total Discharged:</h2> 
+             <img src="coviddd/spinner.gif" alt="" id="ree" class="gif17"  width="90px">
+             <P class="trsa"  id="ptag"></P>
+             <h2>Total Deaths:</h2> 
+             <img src="coviddd/spinner.gif" alt="" id="ree" class="gif18"  width="90px">
+             <P class="tdsa"  id="ptag"></P>
+          </div>
+    
+      <!-- <div class="second">  -->
+        <div class="card northamerica"  id="card"   data-aos="fade-right">
+            <h1 class="america">N.America</h1>
+            <h2>Total Cases:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree"  class="gif19" width="90px">
+            <P class="tcna"  id="ptag"></P>
+            <h2>Total Discharged:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif20"  width="90px">
+            <P class="trna"  id="ptag"></P>
+            <h2>Total Deaths:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif21" width="90px">
+            <P class="tdna"  id="ptag"></P>
+         </div>
+         <div class="card asia"  id="card"  data-aos="fade-left">
+             <h1>Asia</h1>
+            <h2>Total Cases:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif22"  width="90px">
+            <P class="tcas" id="ptag"></P>
+            <h2>Total Discharged:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif23"  width="90px">
+            <P  class="tras" id="ptag"></P>
+            <h2>Total Deaths:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif24"  width="90px">
+            <P  class="tdas" id="ptag"></P>
+         </div>
+         <div class="card australia"  id="card"  data-aos="fade-right">
+             <h1>Australia</h1>
+            <h2>Total Cases:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif25"  width="90px">
+            <P  class="tcau" id="ptag"></P>
+            <h2>Total Discharged:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif26" width="90px">
+            <P  class="trau" id="ptag"></P>
+            <h2>Total Deaths:</h2> 
+            <img src="coviddd/spinner.gif" alt="" id="ree" class="gif27" width="90px">
+            <P  class="tdau"id="ptag"></P>
+         </div>
+      <!-- </div>  -->
+     </div>
+    </div>
+</div>
+
+<div class="aboutme">
+
+    <h2>Stay Safe</h2>
+    <h1 class="ittt">Developed by</h1> <span class="typing"></span>
+    <img src="coviddd/100.jpeg" class="emekeface"alt="">
+    <!-- <h3>Web-Developer/Web-Designer</h3> -->
+    <div class="sociallinks">
+       <a href="http://wa.me/+2347036226327" target="_blank"> <img src="coviddd/whatsapp.png" class="whats" alt=""></a>
+       <a href="https://twitter.com/OfuzorEmeke?s=01"  target="_blank"><img src="coviddd/twitter 2.png" class="twitt" alt=""></a>
+       <a href="https://m.facebook.com/emeke.ofuzor"  target="_blank"> <img src="coviddd/facebook.png" class="facebook" alt=""></a>
+      <a href="https://www.instagram.com/ofuzor___emeke/"  target="_blank">  <img src="coviddd/instagram.png"class="insta"  alt=""></a>
+    </div>
+  
+</div>
+  
+    <script src="js/THANKGOD.JS"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset:300,
+          duration:500
+
+      });
+    </script> 
+  
+</body>
+</html>
